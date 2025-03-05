@@ -782,7 +782,6 @@ def calculate_policy_alignment(member_id, bills_data):
     if member_info["party"] == "REP":
         if overall_score > 75:
             analysis += "This Republican representative shows strong alignment with conservative policies, "
-            analysis += "voting consistently in favor of bills that align with conservative positions.\n
             analysis += "voting consistently in favor of bills that align with conservative positions.\n\n"
         elif overall_score > 50:
             analysis += "This Republican representative shows moderate alignment with conservative policies, "
